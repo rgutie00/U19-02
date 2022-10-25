@@ -8,7 +8,7 @@ const productoSchema = new Schema( {
     region: String,
     cantidad: Number,
     imagen: String,
-    Usuarios: {
+    Usuario: {
                type: Schema.Types.ObjectId,
                ref: "Usuario",
                },

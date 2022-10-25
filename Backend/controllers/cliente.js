@@ -73,10 +73,10 @@ async function borrarCliente(req = request, res = response) {
 
   const object = await ClienteModel.findByIdAndDelete(id)
 
-  res.status(201).send({ mensaje: "Cliente Eliminado", object })
+  res.status(201).send({ mensaje: "Cliente Eliminado", Object })
 
 
- // res.send(object)
+  res.send(object)
 
 }
 
