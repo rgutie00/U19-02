@@ -5,13 +5,12 @@ connectDB()
 
 ProductoModel.create({
 
-    nombre: "MANJAR BLANCO",
+    nombre: "CHOCOLATE BLANCO",
     valorProducto: 5000,
-    categoria: "DULCES",
-    region: "PACIFICA",
+    categoria: "CHOCOLATES",
+    region: "ANDINA",
     cantidad: 5,
-    imagen: "",
-    Usuarios: "63581ba733e5dcba38ba9c0d",
+    Usuarios: "635075ee115f2b20fcac3ac8",
     registro: new Date().toISOString(),
  
 })
