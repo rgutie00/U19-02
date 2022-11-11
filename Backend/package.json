@@ -4,7 +4,7 @@
   "description": "Backend de proyecto de tareas",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "node src/index.js",
     "dev": "nodemon .",
     "testu": "node ./tests/usuario.test.js",
     "testp": "node ./tests/producto.test.js"
